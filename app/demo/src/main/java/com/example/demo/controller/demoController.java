@@ -10,4 +10,8 @@ public class demoController {
 public String  login(){
     return " login successfully";
 }
+@GetMapping("/register")
+public String register(){
+    return "register successfully";
+}
 }
