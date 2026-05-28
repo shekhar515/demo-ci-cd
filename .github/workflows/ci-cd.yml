@@ -1,4 +1,4 @@
-```yaml id="l0mkzy"
+
 name: Spring Boot CI/CD
 
 on:
@@ -24,4 +24,4 @@ jobs:
 
       - name: Build Project
         run: mvn clean install
-```
+
