@@ -25,4 +25,7 @@ jobs:
       - name: Build Project
         working-directory: app/demo
         run: mvn clean install -DskipTests
-
+ 
+      - name: Build Docker Image 
+        working-directory: app/demo  
+        run: docker build -t demo-app .
