@@ -36,3 +36,6 @@ jobs:
             password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Push Docker Image   
         run: docker push shekharkumar15india/demo-cicd:latest
+
+      - name: Trigger Render Deploy Hook
+        run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
