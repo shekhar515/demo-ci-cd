@@ -35,4 +35,4 @@ jobs:
             username: ${{ secrets.DOCKER_USERNAME }}
             password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Push Docker Image   
-        run: docker push shekhar515/demo-app
+        run: docker push shekharkumar15india/demo-app
