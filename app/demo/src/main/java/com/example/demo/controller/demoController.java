@@ -18,4 +18,8 @@ public String register(){
 public String hello(){
     return " welcome Shekhar";
 }
+@GetMapping("/about")
+public String about(){
+    return " this is all about ci/cd" ;
+}
 }
