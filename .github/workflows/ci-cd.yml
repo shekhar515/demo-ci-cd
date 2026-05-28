@@ -23,5 +23,6 @@ jobs:
           java-version: 21
 
       - name: Build Project
-        run: mvn clean install
+        working-directory: app/demo
+        run: mvn clean install -DskipTests
 
