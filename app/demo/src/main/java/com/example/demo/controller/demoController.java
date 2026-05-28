@@ -14,4 +14,8 @@ public String  login(){
 public String register(){
     return "register successfully";
 }
+@GetMapping("/")
+public String hello(){
+    return " welcome Shekhar";
+}
 }
