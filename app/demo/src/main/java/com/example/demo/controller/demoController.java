@@ -26,4 +26,8 @@ public String about(){
 public String contact(){
     return " contact number :";
 }
+@GetMapping("/hello")
+public String hi(){
+    return "hello ";
+}
 }
