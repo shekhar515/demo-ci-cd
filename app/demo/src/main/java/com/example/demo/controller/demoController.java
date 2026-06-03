@@ -30,4 +30,8 @@ public String contact(){
 public String hi(){
     return "hello ";
 }
+@GetMapping("/cart")
+public String cart(){
+    return "successfully added to cart";
+}
 }
